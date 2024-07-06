@@ -37,9 +37,9 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
-          name: jekyll-site
+          name: github-pages # 업로드할 Artifact의 이름을 지정합니다
           path: ./_site
 
   # 배포 작업
@@ -51,13 +51,13 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
-          name: jekyll-site
+          name: github-pages # 다운로드할 Artifact의 이름을 지정합니다
           path: ./site
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          target-folder: ./site
+          token: ${{ secrets.GITHUB_TOKEN }} # GitHub Token을 사용하여 인증합니다
+          artifact_name: ./site # 다운로드한 Artifact의 경로를 지정합니다
           cleanup: false # 이 배포에 의해 대체되지 않은 기존 파일은 유지합니다
