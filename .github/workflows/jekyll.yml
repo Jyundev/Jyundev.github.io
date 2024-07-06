@@ -39,7 +39,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages # 업로드할 Artifact의 이름을 지정합니다
+          name: jekyll-site # 업로드할 Artifact의 이름을 지정합니다
           path: ./_site
 
   # 배포 작업
@@ -53,7 +53,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages # 다운로드할 Artifact의 이름을 지정합니다
+          name: jekyll-site # 다운로드할 Artifact의 이름을 지정합니다
           path: ./site
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
