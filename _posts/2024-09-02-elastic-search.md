@@ -1,7 +1,7 @@
 ---
 layout: single
-title: '[Elastic Search] Elastic Search 란?'
-categories: Elastic Search
+title: '[ElasticSearch] ElasticSearch 란?'
+categories: ElasticSearch
 tag: [Elastic Search]
 toc: true 
 author_profile: false

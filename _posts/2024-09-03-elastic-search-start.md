@@ -1,7 +1,7 @@
 ---
 layout: single
-title: '[Elastic Search] Docker와 Python 을 이용해서 Elastic Search 시작하기'
-categories: Elastic Search
+title: '[ElasticSearch] Docker와 Python 을 이용해서 ElasticSearch 시작하기'
+categories: ElasticSearch
 tag: [Elastic Search]
 toc: true 
 author_profile: false
