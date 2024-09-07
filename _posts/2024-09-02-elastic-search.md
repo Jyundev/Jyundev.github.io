@@ -1,7 +1,7 @@
 ---
 layout: single
-title: '[Elastic Search] Elastic Search 란?'
-categories: Elastic Search
+title: '[ElasticSearch] ElasticSearch 란?'
+categories: ElasticSearch
 tag: [Elastic Search]
 toc: true 
 author_profile: false
@@ -70,6 +70,12 @@ Elasticsearch는 인덱스를 사용하여 텍스트 데이터를 인덱싱하�
 - 트랜잭션 롤백 미지원: 성능 최적화를 위해 트랜잭션 롤백 기능을 지원하지 않으므로, 데이터 무결성에 대한 관리가 필요합니다.
 - 데이터 업데이트 제약: 업데이트 시 기존 문서를 삭제하고 새로운 문서를 생성하는 방식으로, 비용이 많이 들고 실시간 업데이트에 불리하다. 이를 통해 불변성(Immutable)의 장점을 가지지만, 자원 소모가 크다.
 
+
+## 정리
+- ElasticSearch는 준실시간 검색 엔진이다.
+- ElasticSearch는 한 대 이상의 노드로 클러그터를 구성하여 사용 가능 하다.
+- ElasticSearch는 스키마를 미리 정의하지 않아도 된다.
+- ElasticSearch는 Rest API 기반의 인터페이스를 제공 한다. 
 <br>
 <br>
 
