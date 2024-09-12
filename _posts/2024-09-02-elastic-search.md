@@ -2,7 +2,7 @@
 layout: single
 title: '[ElasticSearch] ElasticSearch 란?'
 categories: ElasticSearch
-tag: [Elastic Search]
+tag: [ElasticSearch]
 toc: true 
 author_profile: false
 sidebar:
