@@ -7,7 +7,7 @@ toc: true
 author_profile: false
 sidebar:
   nav: "counts"
-published: true
+published: false
 ---
 
 ## 컴퓨터 구조의 큰 그림
