@@ -93,7 +93,7 @@ Vite는  CSR 개발 환경에서의 번들링과 개발 속도를 최적화하�
      <img src="{{site.url}}\images\2024-10-19-emotion-diary\diary.png" alt="Alt text" style="width: 30%; height: 40%; margin: 10px">
 </div>
 
- - Home : 일기 리스트 엔더링
+ - Home : 일기 리스트 렌더링
  - Diary : 일기 상세 조회 
  - New : 새로운 일기 작성
  - Edit : 기존 일기 수정
